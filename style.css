@@ -1,0 +1,55 @@
+h1, h2, h3 {
+
+    color: rgb(37, 198, 22);
+}
+
+body{
+
+    background-color: rgb(245, 237, 220);
+}
+
+header{
+
+    background-image: 'https://www.techuseful.com/wp-content/uploads/2021/03/Software-2048x1152.jpg';
+}
+
+ *{
+    font-family: "Roboto", serif;
+  }
+
+  h1, h2, h3{
+    font-family: "Electrolize", sans-serif;
+  }
+
+  .btnArticle{
+    background-color: rgb(226, 46, 18)
+    color white
+  }
+
+  .btnArticle:hover{
+    background-color: rgb(33, 229, 85);
+    color: beige;
+  }
+
+  aside{
+    background-color: rgb(197, 197, 42);
+  }
+
+  
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+  }
+
+  nav li{
+    margin: 40px;
+  }
+
+  .list:hover{
+    background-color: red;
+    color: black;
+    margin: 10px;
+  }
