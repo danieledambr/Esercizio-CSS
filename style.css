@@ -15,10 +15,12 @@ header{
 
  *{
     font-family: "Roboto", serif;
+  
   }
 
   h1, h2, h3{
     font-family: "Electrolize", sans-serif;
+  
   }
 
   .btnArticle{
@@ -31,25 +33,63 @@ header{
     color: beige;
   }
 
-  aside{
-    background-color: rgb(197, 197, 42);
+
+
+  nav{
+    background-color: rgb(73, 73, 70);
+    display: flex;
+    justify-content: space-between;
   }
 
-  
+  .imglogo{
+    width: 250px;
+  }
 
   nav ul{
     display: flex;
     justify-content: center;
-    height: 70px;
+    height: 50px;
     align-items: center;
   }
 
   nav li{
-    margin: 40px;
+    margin: 30px;
   }
 
-  .list:hover{
-    background-color: red;
+  .list{
     color: black;
-    margin: 10px;
   }
+
+  
+
+
+  .imgarticle{
+    width: 300px;
+  }
+
+.container{
+  display: flex;
+}
+
+
+
+.text2{
+  text-align: center;
+
+}
+
+aside{
+  background-color: rgb(187, 187, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main{
+  display: flex;
+}
+
+
+.list:hover{
+border-bottom: 2px solid rgb(187, 187, 34)
+}
