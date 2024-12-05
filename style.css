@@ -93,3 +93,33 @@ main{
 .list:hover{
 border-bottom: 2px solid rgb(187, 187, 34)
 }
+
+.bottomUp{
+  position: fixed;
+  width: 100px;
+ right: 50px;
+ top: 630px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .imglogo{
+    width: 50px;
+  
+  }
+   
+  .link{
+    width: 50px;
+  }
+
+  .container{
+  display: block;
+  }
+
+  aside{
+    display: inline;
+  }
+
+
+}
