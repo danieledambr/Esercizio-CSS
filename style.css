@@ -23,6 +23,10 @@ header{
   
   }
 
+  body{
+    margin: 0%;
+  }
+
   .btnArticle{
     background-color: rgb(226, 46, 18)
     color white
@@ -36,7 +40,7 @@ header{
 
 
   nav{
-    background-color: rgb(73, 73, 70);
+    background-color: rgb(197, 236, 240);
     display: flex;
     justify-content: space-between;
   }
@@ -90,35 +94,66 @@ main{
 }
 
 
-.list:hover{
-border-bottom: 2px solid rgb(187, 187, 34)
+
+footer{
+  background-color: rgb(73, 73, 70); 
+  display: flex;
+  justify-content: space-around;
+  color: beige;
+  align-items: center;
+  height: 25vh;
+  margin-top: 70px;
 }
 
 .bottomUp{
+  width: 50px;
+  height: 50px;
+  animation-name: Icon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
   position: fixed;
-  width: 100px;
- right: 50px;
- top: 630px;
+  top: 50vh;
 }
 
+@keyframes Icon {
+  0%{
+    transform: translateY(50px);
+  }100% {
+    transform: translateY(0px);
+  }
+}
 
 @media screen and (max-width: 600px) {
   
   .imglogo{
     width: 50px;
-  
+    height: 50px;
+  }
+
+  nav{
+    width: 100%;
   }
    
-  .link{
-    width: 50px;
+  .list{
+    font-size: 10px;
   }
 
   .container{
   display: block;
+  width: 100%;
   }
 
   aside{
-    display: inline;
+    width: 100%;
+    display: block;
+  }
+
+  main{
+    display: block;
+  }
+
+  footer{
+    display: block;
   }
 
 
